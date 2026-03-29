@@ -80,8 +80,17 @@ npm run dev
 
 
 
+
 Future Improvements
+
+
 Card flip animations
+
+
 Difficulty levels (larger grids)
+
+
 Multiplayer mode
+
+
 Leaderboard (backend integration)
