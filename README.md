@@ -34,11 +34,11 @@ Try to finish with the least moves and fastest time! ( I am pretty bad at this)
 
 SCREENSHOTS
 <img width="744" height="793" alt="image" src="https://github.com/user-attachments/assets/b57c78ff-dec0-4483-bbf2-7e419358e9fe" />
-<img width="1121" height="868" alt="image" src="https://github.com/user-attachments/assets/5d4691a4-28d3-4c10-a371-3d78d8994b3a" />
+<img width="744" height="793" alt="image" src="https://github.com/user-attachments/assets/5d4691a4-28d3-4c10-a371-3d78d8994b3a" />
 
 
 Installation
-git clone https://github.com/your-username/memory-game.git
+git clone https://github.com/superuser212/memory-game.git
 cd pixel-memory-game
 npm install
 npm run dev
