@@ -1,101 +1,73 @@
-🎮 Pixel Memory Game
+# Pixel Memory Game
 
-A polished, interactive memory card game built with React and TypeScript. Flip cards, match pairs, and try to beat your best score.
+A browser-based memory card game built with React and TypeScript. The goal is to match all pairs of cards while minimizing moves and time.
 
-Live Demo
+---
 
-https://memory-game-nu-kohl.vercel.app/
+## Live Demo
 
+https://memory-game-nu-kohl.vercel.app
 
+---
 
-Features
+## Features
 
+* Memory matching gameplay with a 4x4 grid
+* Move counter to track attempts
+* Real-time timer
+* High score, and Best time tracking using localStorage
+* Sound effects for card flips, matches, and winning
+* Image-based cards using pixel art avatars
+* Restart functionality
 
-Memory Matching Gameplay – Flip cards and match all pairs to win
+---
 
+## Tech Stack
 
-Real-Time Timer – Tracks how long you take
+* Frontend: React with TypeScript
+* State Management: React Hooks (useState, useEffect)
+* Storage: Browser localStorage
+* Assets: DiceBear Avatars API and Mixkit sound effects
+* Deployment: Vercel
 
+---
 
-Move Counter – Counts every attempt
+## How to Play
 
+1. Click a card to flip it
 
-High Score System – Saves best moves and time using localStorage
+2. Click a second card to try and find a matching pair
 
+3. If the cards match, they remain visible
 
-Sound Effects – Feedback for flips, matches, and winning
+4. If they do not match, they flip back after a short delay
 
+5. Continue until all pairs are matched
 
-Dark Mode UI – Clean and modern interface
+Try to complete the game in the fewest moves and shortest time possible
 
+---
 
-Dynamic Card Images – Uses pixel-art avatars for visual appeal
+## Installation
 
-
-
-
-Frontend: React + TypeScript
-
-State Management: React Hooks (useState, useEffect)
-
-Storage: Browser localStorage
-
-Assets: DiceBear Avatars API + Mixkit sound effects
-
-Deployment: Vercel
-
-
-
-How to Play
-
-
-Click any card to flip it
-
-Flip a second card to find a match
-
-If they match → they stay revealed
-
-If not → they flip back
-
-Match all pairs to win
-
-Try to finish with the least moves and fastest time! ( I am pretty bad at this)
-
-
-SCREENSHOTS
-
-
-<img width="744" height="793" alt="image" src="https://github.com/user-attachments/assets/b57c78ff-dec0-4483-bbf2-7e419358e9fe" />
-
-
-
-<img width="744" height="793" alt="image" src="https://github.com/user-attachments/assets/5d4691a4-28d3-4c10-a371-3d78d8994b3a" />
-
-
-
-Installation
-
-git clone https://github.com/superuser212/memory-game.git
-
+```bash id="o2wq9r"
+git clone https://github.com/your-username/pixel-memory-game.git
 cd pixel-memory-game
-
 npm install
-
 npm run dev
+```
 
+---
 
+## Future Improvements
 
+* Add card flip animations
+* Introduce difficulty levels (larger grids)
+* Add multiplayer functionality
+* Implement a global leaderboard
 
-Future Improvements
+---
 
+## License
 
-Card flip animations
-
-
-Difficulty levels (larger grids)
-
-
-Multiplayer mode
-
-
-Leaderboard (backend integration)
+This project is available under the MIT License.
