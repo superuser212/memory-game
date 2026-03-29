@@ -7,19 +7,27 @@ Live Demo
 https://memory-game-nu-kohl.vercel.app/
 
 
+
 Features
+
 
 Memory Matching Gameplay – Flip cards and match all pairs to win
 
+
 Real-Time Timer – Tracks how long you take
+
 
 Move Counter – Counts every attempt
 
+
 High Score System – Saves best moves and time using localStorage
+
 
 Sound Effects – Feedback for flips, matches, and winning
 
+
 Dark Mode UI – Clean and modern interface
+
 
 Dynamic Card Images – Uses pixel-art avatars for visual appeal
 
@@ -37,7 +45,9 @@ Assets: DiceBear Avatars API + Mixkit sound effects
 Deployment: Vercel
 
 
+
 How to Play
+
 
 Click any card to flip it
 
@@ -57,7 +67,9 @@ SCREENSHOTS
 <img width="744" height="793" alt="image" src="https://github.com/user-attachments/assets/5d4691a4-28d3-4c10-a371-3d78d8994b3a" />
 
 
+
 Installation
+
 git clone https://github.com/superuser212/memory-game.git
 
 cd pixel-memory-game
